@@ -412,6 +412,7 @@
 	letter-spacing: 0.01em;
 	text-decoration: none;
 	text-decoration-blink: false;
+	padding-left: 38px;
 	margin-left: 0.906in;
 	margin-right: 0in;
 	margin-top: 6pt;
@@ -431,6 +432,7 @@
 	letter-spacing: 0.01em;
 	text-decoration: none;
 	text-decoration-blink: false;
+	padding-left: 12px;
 	margin-left: 0.59408in;
 	margin-right: 0.5in;
 	margin-top: 8pt;
@@ -439,7 +441,7 @@
 
 .micro-response .xref
 {
-	color: blue;
+	color: #0099ff;
 	text-decoration: underline;
 }
 

@@ -127,6 +127,7 @@ p.Bullet
 	mc-auto-number-class: BulletSymbol;
 	line-height: 13pt;
 	text-decoration: none;
+	padding-left: 12px;
 }
 
 MadCap|xref.ChapterContent
@@ -161,8 +162,8 @@ h1.Heading1
 	mc-hyphenate: never;
 	text-indent: 0px;
 	line-height: 19pt;
-	text-decoration: none;
-	font-size: 18pt;
+	text-decoration: underline;
+	font-size: 20pt;
 }
 
 h1.Heading1Mid
@@ -300,26 +301,30 @@ p.StepNext
 	padding-left: 24;
 }
 
-p.Note
+p.Note	/*Note
+*/
 {
 	text-align: left;
-	margin-left: 0.437in;
-	margin-right: 0.25in;
-	margin-top: 4pt;
-	margin-bottom: 4pt;
-	font-family: 'Hind Regular';
-	font-weight: bold;
+	margin-right: 0in;
+	margin-top: 13pt;
+	margin-bottom: 13pt;
 	font-style: normal;
 	font-size: 11pt;
 	letter-spacing: 0.01em;
 	color: #000000;
 	mc-hyphenate: never;
-	mc-auto-number-format: 'Note: ';
-	mc-auto-number-position: inside-head;
-	mc-auto-number-offset: 0px;
-	text-indent: -41px;
+	text-indent: 0px;
 	line-height: 13pt;
 	text-decoration: none;
+	padding: 3px;
+	border: dotted 1.5px #696969;
+	padding-bottom: 3px;
+	padding-top: 5px;
+	padding-left: 4px;
+	mc-auto-number-format: 'Note: ';
+	font-family: 'Hind Regular';
+	mc-auto-number-position: inside-head;
+	font-weight: bold;
 }
 
 p.StepFirstAlpha
@@ -362,6 +367,7 @@ p.StepNextAlpha
 	mc-auto-number-offset: 22.512px;
 	line-height: 13pt;
 	text-decoration: none;
+	padding-left: 38px;
 }
 
 h2.Heading2
@@ -400,6 +406,7 @@ h3.Heading3
 	text-indent: 0px;
 	line-height: 14pt;
 	text-decoration: none;
+	mc-heading-level: 0;
 }
 
 h4.Heading4
@@ -409,15 +416,19 @@ h4.Heading4
 	margin-right: 0in;
 	margin-top: 14pt;
 	margin-bottom: 12pt;
-	font-family: Montserrat;
-	font-weight: bold;
-	font-style: normal;
-	font-size: 12pt;
 	letter-spacing: 0em;
 	color: #3f3f3f;
 	text-indent: 0px;
 	line-height: 14pt;
 	text-decoration: none;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	padding: 2px;
+	font-family: 'Hind Regular';
+	font-size: 14pt;
+	font-style: normal;
+	font-weight: bold;
+	border: none 1px #696969;
 }
 
 p.footer
@@ -522,6 +533,16 @@ img.button
 	vertical-align: bottom;
 }
 
+h4
+{
+	mc-heading-level: 0;
+}
+
+MadCap|tocProxy
+{
+	font-family: 'Hind Regular';
+}
+
 @media print
 {
 	p.Body
@@ -620,6 +641,35 @@ p.Guide_Type
 p.whiteBullet
 {
 	text-align: left;
+	margin-right: 0.5in;
+	margin-top: 8pt;
+	margin-bottom: 8pt;
+	font-family: 'Hind Regular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11pt;
+	letter-spacing: 0.01em;
+	color: #000000;
+	mc-hyphenate: never;
+	mc-auto-number-position: outside-head;
+	mc-auto-number-offset: 23.04768px;
+	mc-auto-number-class: BulletSymbol;
+	line-height: 13pt;
+	text-decoration: none;
+	mc-auto-number-format: 'B:◦';
+	margin-left: 1in;
+	padding-left: 55px;
+}
+
+MadCap|xref
+{
+	mc-format: '{paratext}';
+	color: #0099ff;
+}
+
+p.Bullet_X_Ref
+{
+	text-align: left;
 	margin-left: 0.59408in;
 	margin-right: 0.5in;
 	margin-top: 8pt;
@@ -633,9 +683,10 @@ p.whiteBullet
 	mc-hyphenate: never;
 	mc-auto-number-format: 'B:• ';
 	mc-auto-number-position: outside-head;
-	mc-auto-number-offset: 23.04768px;
 	mc-auto-number-class: BulletSymbol;
 	line-height: 13pt;
 	text-decoration: none;
+	mc-auto-number-offset: 20px;
+	padding-left: 12px;
 }
 

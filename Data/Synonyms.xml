@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MadCapSynonyms xml:lang="en-US">
     <Groups />
-    <Directional />
+    <Directional>
+        <DirectionalSynonym From="Import" To="log" />
+        <DirectionalSynonym From="Logging" To="print" />
+    </Directional>
 </MadCapSynonyms>
