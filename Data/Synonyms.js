@@ -5,6 +5,7 @@ xmlSynonymsData += '    <Groups />';
 xmlSynonymsData += '    <Directional>';
 xmlSynonymsData += '        <DirectionalSynonym From=\"Import\" To=\"log\" />';
 xmlSynonymsData += '        <DirectionalSynonym From=\"Logging\" To=\"print\" />';
+xmlSynonymsData += '        <DirectionalSynonym From=\"NH\" To=\"new hampshir\" />';
 xmlSynonymsData += '    </Directional>';
 xmlSynonymsData += '</MadCapSynonyms>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Synonyms', xmlSynonymsData);

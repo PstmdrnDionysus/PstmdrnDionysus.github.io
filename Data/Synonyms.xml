@@ -4,5 +4,6 @@
     <Directional>
         <DirectionalSynonym From="Import" To="log" />
         <DirectionalSynonym From="Logging" To="print" />
+        <DirectionalSynonym From="NH" To="new hampshir" />
     </Directional>
 </MadCapSynonyms>

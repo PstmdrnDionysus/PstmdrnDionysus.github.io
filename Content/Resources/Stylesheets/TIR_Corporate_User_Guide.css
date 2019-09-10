@@ -298,33 +298,37 @@ p.StepNext
 	mc-auto-number-offset: 28.512px;
 	line-height: 13pt;
 	text-decoration: none;
-	padding-left: 24;
+	padding-left: 24px;
 }
 
 p.Note	/*Note
 */
 {
-	text-align: left;
-	margin-right: 0in;
-	margin-top: 13pt;
-	margin-bottom: 13pt;
 	font-style: normal;
 	font-size: 11pt;
 	letter-spacing: 0.01em;
 	color: #000000;
 	mc-hyphenate: never;
-	text-indent: 0px;
 	line-height: 13pt;
 	text-decoration: none;
-	padding: 3px;
 	border: dotted 1.5px #696969;
-	padding-bottom: 3px;
-	padding-top: 5px;
-	padding-left: 4px;
 	mc-auto-number-format: 'Note: ';
 	font-family: 'Hind Regular';
-	mc-auto-number-position: inside-head;
 	font-weight: bold;
+	text-align: left;
+	border-right-align: left;
+	border-bottom-right-radius: 0px;
+	margin-top: 10pt;
+	margin-right: 10px;
+	padding-left: 2px;
+	padding-right: 24px;
+	padding-bottom: 10px;
+	padding-top: 12px;
+	margin-bottom: 10pt;
+	padding: 8px;
+	margin: 34px 34px 34px 24px;
+	margin-left: 14px;
+	mc-auto-number-position: inside-head;
 }
 
 p.StepFirstAlpha
@@ -394,7 +398,6 @@ h3.Heading3
 	text-align: left;
 	margin-left: 0in;
 	margin-right: 0in;
-	margin-top: 14pt;
 	margin-bottom: 14pt;
 	font-family: Montserrat;
 	font-weight: bold;
@@ -407,6 +410,7 @@ h3.Heading3
 	line-height: 14pt;
 	text-decoration: none;
 	mc-heading-level: 0;
+	margin-top: 24pt;
 }
 
 h4.Heading4
@@ -521,16 +525,18 @@ img
 
 img.button
 {
-	border: solid 3px #c0c0c0;
 	margin-left: 1.12536px;
 	margin-right: 3.374641px;
-	width: inherit;
 	height: inherit;
-	margin-top: -2px;
 	mc-thumbnail: none;
 	position: inherit;
 	float: none;
-	vertical-align: bottom;
+	margin-top: -1px;
+	vertical-align: -6px;
+	width: 0px;
+	border: solid 1px #c0c0c0;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
 }
 
 h4
@@ -594,6 +600,22 @@ MadCap|tocProxy
 		padding-bottom: -10px;
 		padding: 0px 0px -10px;
 		vertical-align: -24px;
+	}
+
+	img
+	{
+		max-width: 6.4in;
+	}
+
+	p.Note
+	{
+		margin-right: 20px;
+		vertical-align: inherit;
+		text-align: left;
+		hanging-punctuation: none;
+		text-indent: inherit;
+		padding: 8px;
+		display: block;
 	}
 }
 
